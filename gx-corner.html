@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>My GX Corner</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #0f1115;
+      color: #e6e6e6;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 24px;
+    }
+    .section {
+      margin-bottom: 32px;
+    }
+    .section h2 {
+      font-size: 18px;
+      margin-bottom: 12px;
+      color: #9aa0a6;
+    }
+    .tiles {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 14px;
+    }
+    .tile {
+      display: block;
+      background: #181b24;
+      color: #e6e6e6;
+      text-decoration: none;
+      border-radius: 10px;
+      padding: 16px;
+      text-align: center;
+      transition: transform 0.15s ease, background 0.15s ease;
+    }
+    .tile:hover {
+      transform: translateY(-2px);
+      background: #1f2330;
+    }
+    .tile strong {
+      display: block;
+      font-size: 15px;
+      margin-bottom: 4px;
+    }
+    .tile span {
+      font-size: 12px;
+      color: #9aa0a6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>My GX Corner</h1>
+
+    <div class="section">
+      <h2>PC Deals</h2>
+      <div class="tiles">
+        <a class="tile" href="https://gg.deals" target="_blank">
+          <strong>GG.deals</strong>
+          <span>Best prices across stores</span>
+        </a>
+        <a class="tile" href="https://isthereanydeal.com" target="_blank">
+          <strong>IsThereAnyDeal</strong>
+          <span>Official stores & history</span>
+        </a>
+        <a class="tile" href="https://steamdb.info" target="_blank">
+          <strong>SteamDB</strong>
+          <span>Steam prices & bundles</span>
+        </a>
+        <a class="tile" href="https://store.steampowered.com/specials" target="_blank">
+          <strong>Steam Specials</strong>
+          <span>Current Steam sales</span>
+        </a>
+        <a class="tile" href="https://store.epicgames.com/en-US/free-games" target="_blank">
+          <strong>Epic Free Games</strong>
+          <span>Weekly freebies</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Console Deals</h2>
+      <div class="tiles">
+        <a class="tile" href="https://www.dekudeals.com" target="_blank">
+          <strong>DekuDeals</strong>
+          <span>Switch price tracker</span>
+        </a>
+        <!-- Add PS/Xbox deal sites here -->
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>News</h2>
+      <div class="tiles">
+        <a class="tile" href="https://www.pcgamer.com" target="_blank">
+          <strong>PC Gamer</strong>
+          <span>News & reviews</span>
+        </a>
+        <a class="tile" href="https://kotaku.com" target="_blank">
+          <strong>Kotaku</strong>
+          <span>Gaming culture</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
